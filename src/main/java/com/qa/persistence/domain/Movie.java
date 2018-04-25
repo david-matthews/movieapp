@@ -14,6 +14,8 @@ public class Movie {
 	private String genre;
 	private String rating;
 	
+	public Movie() {}
+	
 	public Movie(String title, String genre, String rating) {
 		this.title = title;
 		this.genre = genre;
