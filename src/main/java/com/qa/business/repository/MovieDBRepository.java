@@ -11,7 +11,7 @@ import static javax.transaction.Transactional.TxType.REQUIRED;
 
 import org.apache.log4j.*;
 
-import com.qa.domain.Account;
+
 import com.qa.persistence.domain.Movie;
 import com.qa.util.JSONUtil;
 

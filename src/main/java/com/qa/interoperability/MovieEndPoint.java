@@ -47,7 +47,7 @@ public class MovieEndPoint {
 	@Path("/json")
 	@Produces({"application/json"})
 	public String updateAMovie (Long id, String movieJSON) {
-		return service.updateAMovie(movieJSON);
+		return service.updateAMovie(id, movieJSON);
 	}
 	
 	

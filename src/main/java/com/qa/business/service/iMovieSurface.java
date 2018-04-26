@@ -10,6 +10,6 @@ public interface iMovieSurface {
 	
 	String deleteAMovie (Long id);
 	
-	String updateAnAccount (Long id, String movieToUpdate);
+	String updateAMovie (Long id, String movieToUpdate);
 	
 }
