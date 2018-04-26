@@ -17,4 +17,11 @@ public class MovieService implements iMovieSurface {
 		return repo.getAllMovies();
 	}
 
+
+	@Override
+	public String getAMovie(Long id) {
+		
+		return repo.getAMovie(id);
+	}
+
 }

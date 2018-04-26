@@ -4,4 +4,6 @@ public interface iMovieSurface {
 	
 	String getAllMovies();
 
+	String getAMovie(Long id);
+	
 }
